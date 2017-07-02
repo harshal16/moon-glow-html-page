@@ -1,0 +1,90 @@
+body {
+	background-image: url(images/night-sky-hd-wallpaper.jpg);
+}
+#moon{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+	transition: all 6s;
+	left : 0px;
+	background-image:url(images/HD%20Wallpaper1.jpg);
+	background-position:center;
+	background-size: contain;
+	
+	top: 50px;
+}
+#moon:hover {
+	left: 980px;
+	top: 0px;
+	width: 150px;
+	height: 150px;
+ box-shadow:hsla(173,87%,57%,0.91) 10px 25px 45px ;
+}
+
+
+#star{
+		
+		border-radius:50%;
+		background-image: url("images/big-stars.png");
+	
+	background-repeat:no-repeat;
+	margin:500px;
+	
+	-webkit-animation:show 4s  infinite;
+	position:fixed;
+
+	visibility:100%;
+	
+}
+
+@keyframes show
+{
+		0%
+		{
+			visibility:0%;
+			
+		}
+		25%
+		{
+			visibility:25%;
+		}
+		50%
+		{
+			visibility:50%;
+			
+		}
+		75%
+		{
+			visibility:75%;
+		}
+		100%
+		{
+		visibility:100%;
+		}
+}
+
+@-webkit-keyframes show
+{
+		0%
+		{
+			visibility:0%;
+		}
+		25%
+		{
+			visibility:25%;
+		}
+		50%
+		{
+			visibility:50%;
+		}
+		75%
+		{
+			visibility:75%;
+		}
+		100%
+		{
+		visibility:100%;
+		}
+}
